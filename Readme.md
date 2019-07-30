@@ -1,6 +1,6 @@
 # dxList - How to change the header color based on a condition
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4833)**
+**[[Run Online]](https://codecentral.devexpress.com/e4833/)**
 <!-- run online end -->
 
 
