@@ -1,0 +1,12 @@
+<div data-options="dxView : { name: 'Index', title: 'Home' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+         <div data-bind="dxList:{dataSource: employees, grouped:true}">
+            <div data-options="dxTemplate:{name:'group'}" data-bind="css: $root.getClass(key)" >
+                <b><span data-bind="text: $data.key"></span></b>(<span data-bind="text: $data.items.length"></span>)
+            </div>
+            <div data-options="dxTemplate:{name:'item'}">
+                <span data-bind="text: $data.name"></span>(hired at <span data-bind="text: $data.hired"></span>)
+            </div>
+        </div>
+    </div>
+</div>
